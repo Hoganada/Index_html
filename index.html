@@ -5,7 +5,7 @@
   
   <style>
     body {
-  background-image: url("https://cdn.dribbble.com/users/2828838/screenshots/11342430/image.png" alt="Sneakers" width:"1000" height:"1000" class="center");
+  background-image: url("https://cdn.dribbble.com/users/2828838/screenshots/11342430/image.png");
   background-repeat: no-repeat;
   
   border: 2px solid black;
@@ -19,8 +19,28 @@
    background-color: white;}
 h1   {
   color: black;}
+  
 h2    {
   color: black;}
+    
+.header {
+  background-color: #f1f1f1;
+  padding: 20px;
+  text-align: center;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 15px;
+}
+
+/* Clear floats after the columns */
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
   
   </style>
   
@@ -30,6 +50,24 @@ h2    {
   <h1> Sneakerhead </h1>  
 
   <h2> "Sneakers Can Tell So Much About A Person" </h2>
+    
+  
+<div class="header">
+  <h1>Header</h1>
+</div>
+    
+    
+ <div class="row">
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+  
+  <div class="column">
+    <h2>Column</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Maecenas sit amet pretium urna. Vivamus venenatis velit nec neque ultricies, eget elementum magna tristique. Quisque vehicula, risus eget aliquam placerat, purus leo tincidunt eros, eget luctus quam orci in velit. Praesent scelerisque tortor sed accumsan convallis.</p>
+  </div>
+     
     
   </body>
 </html>
