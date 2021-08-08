@@ -9,6 +9,7 @@
   text-align: center;
   padding: 5px;
   position: fixed;
+  flex-wrap: wrap;
   opacity: 0.7;
  }
    
@@ -34,26 +35,11 @@ p {
   color: black;}
     
     
-    <br>
-    <br>
-    <br>
-    
-    .column1 {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  opacity: 0.7;
- }
-    
-    .column2 {
-  background-color: #f1f1f1;
-  text-align: center;
-  padding: 5px;
-  position: fixed;
-  opacity: 0.7;
- }
-    
+.column {
+  column-count: 2;
+  column-gap: 40px;
+  column-rule: 4px double black;
+}   
 
    
   
@@ -69,15 +55,9 @@ p {
   <p>Sneakers Can Tell So Much About A Person </p>
 </div>
     
-    <div class="column1">
-  <h1>Jordan</h1>
-  <p>Sneakers Can Tell So Much About A Person </p>
-</div>
+    <div class="column"></div>
     
-    <div class="column2">
-  <h1>Nike</h1>
-  <p>Sneakers Can Tell So Much About A Person </p>
-</div>
+  
     
 
       
